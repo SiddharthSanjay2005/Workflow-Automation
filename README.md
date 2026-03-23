@@ -121,8 +121,11 @@ http://127.0.0.1:5000/
 ## 🧪 Sample Input:-
 
 Name: Siddharth
+<br>
 Phone: 9876543210
+<br>
 Status: new
+<br>
 Interest Level: 9
 
 
