@@ -139,6 +139,7 @@ Interest Level: 9
 ## 📂 Project Structure:-
 
 Workflow-Automation/
+<br>
 ├── app.py
 <br>
 ├── database.py
