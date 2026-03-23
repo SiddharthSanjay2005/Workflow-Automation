@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Workflow Dashboard</title>
+</head>
+<body>
+
+<h2>Add Lead</h2>
+
+<input id="name" placeholder="Name">
+<input id="phone" placeholder="Phone">
+<input id="status" placeholder="Status">
+<input id="interest" placeholder="Interest">
+
+<button onclick="addLead()">Add</button>
+
+<h2>Leads</h2>
+<table border="1">
+<thead>
+<tr><th>Name</th><th>Status</th><th>Interest</th></tr>
+</thead>
+<tbody id="leadTable"></tbody>
+</table>
+
+<h2>Logs</h2>
+<button onclick="loadLogs()">Refresh Logs</button>
+<pre id="logs"></pre>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
